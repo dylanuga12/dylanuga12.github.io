@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  }
+
+/****************   Nav Section **********************/
+nav {
+  display: flex;
+	background-color: #d04c93;
+  justify-content: space-between;
+  color: white;
+  padding: .5rem;
+  align-items: center;
+  
+  
+}
+
+/***********************  Footer Section   **************************/
+footer {
+    display: flex;
+	background-color: rgb(208, 76, 147);
+  justify-content: center;
+  color: white;
+  padding: .5rem;
+  align-items: center;
+  gap: 500px;
+	
+}
+
+/*********** Splash Page ************************/
+header {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(182, 160, 160));
+
+}
+
+header h1 {
+  font-family: "Libertinus Keyboard", sans-serif;
+  font-weight: 400;
+  color: aqua;
+  
+}
+
+header img {
+  border: 2px solid beige;
+
+}
+
+.address {
+  font-size: 1.2 rem;
+ 
+}
+
+.tagline {
+  font-size: 1.2 rem;
+  
+}
+
+/************* Sections ********************/
+hr {
+
+}
+
+section h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: darkcyan;
+  
+}
+
+section dl {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+section ul {
+  font-family: "Roboto Condensed", system-ui;
+  font-optical-sizing: auto;
+  color: darkorange;
+  list-style-type:disc; 
+}
+
+section a {
+text-decoration: none;
+color: green;
+}
+
+section a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+/**************   Projects   *****************/
+.three-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px; 
+	
+}
+
+.card img {
+    aspect-ratio: 1;
+  height: 175px; 
+  width: auto;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: darkolivegreen;
+  justify-content: center;
+  align-items: center;
+  outline: red 2px;
+  box-shadow: gray .5em .25em .5em .25em;
+  border-radius: 1em;
+  
+}
+
+/**************   Responsiveness   *****************/
+@media (max-width: 680px) {
+    nav {
+      flex-direction: column;
+    }
+
+    .three-col {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2em;
+      
+    }
+}
+
+/**************   Contact Page   *****************/
+.one-col {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 2px; 
+}
+
+input {
+  background-color: aqua;
+  color: black;
+  gap: 2px; 
+  
+
+}
+
+textarea {
+  background-color: aqua;
+  color: black;
+  gap: 2px; 
+   
+}
